@@ -6,7 +6,7 @@ function App() {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
 
-  const API_URL = 'http://localhost:8000/oopdatabase/customers'
+  const API_URL = 'https://universidad-1i99.onrender.com/oopdatabase/customers'
 
   useEffect(() => {
     fetch(API_URL)
