@@ -40,6 +40,8 @@ function App() {
     )
   }
 
+  const totalExpenses = customers.reduce((sum, customer) => sum + customer.totalSale, 0)
+
   return (
     <div className="container">
       <h1>Customer Management System</h1>     
@@ -66,6 +68,12 @@ function App() {
             </tr>
           ))}
         </tbody>
+        <tfoot>
+          <tr>
+            <td colSpan="5" style={{ textAlign: 'right', fontWeight: 'bold' }}>Total Expenses:</td>
+            <td style={{ fontWeight: 'bold' }}>${totalExpenses.toFixed(2)}</td>
+          </tr>
+        </tfoot>
       </table>
     </div>
   )
