@@ -38,7 +38,7 @@
                 <table>
                     <thead>
                         <tr>
-                            <th>ID</th>
+                            <th>#</th>
                             <th>Título</th>
                             <th>Journal</th>
                             <th>EISSN</th>
@@ -47,11 +47,12 @@
                             <th>Autores</th>
                             <th>Abstract</th>
                             <th>Score</th>
+                            <th>DOI</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr v-for="paper in paginatedPapers" :key="paper.id">
-                            <td>{{ paper.id }}</td>
+                        <tr v-for="(paper, index) in paginatedPapers" :key="paper.id">
+                            <td class="number">{{ (currentPage - 1) * itemsPerPage + index + 1 }}</td>
                             <td class="title">{{ paper.title_display }}</td>
                             <td>{{ paper.journal }}</td>
                             <td>{{ paper.eissn }}</td>
@@ -66,6 +67,11 @@
                             </td>
                             <td class="abstract">{{ getAbstract(paper.abstract) }}</td>
                             <td>{{ paper.score ? paper.score.toFixed(2) : 'N/A' }}</td>
+                            <td class="doi">
+                                <a :href="'https://doi.org/' + paper.id" target="_blank" rel="noopener noreferrer">
+                                    {{ paper.id }}
+                                </a>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
