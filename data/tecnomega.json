@@ -1,0 +1,50 @@
+{
+  "clientes": [
+    { "dni": "0102030405", "nombres": "Carlos Pérez", "email": "carlos.perez@example.com", "telefono": "+59399111111", "edad": 29, "genero": "M" },
+    { "dni": "0607080910", "nombres": "María García", "email": "maria.garcia@example.com", "telefono": "+59399222222", "edad": 34, "genero": "F" },
+    { "dni": "1101121314", "nombres": "José Ramírez", "email": "jose.ramirez@example.com", "telefono": "+59399333333", "edad": 41, "genero": "M" },
+    { "dni": "1501161718", "nombres": "Ana Torres", "email": "ana.torres@example.com", "telefono": "+59399444444", "edad": 25, "genero": "F" },
+    { "dni": "1901202122", "nombres": "Luis Mendoza", "email": "luis.mendoza@example.com", "telefono": "+59399555555", "edad": 37, "genero": "M" },
+    { "dni": "2301242526", "nombres": "Sofía López", "email": "sofia.lopez@example.com", "telefono": "+59399666666", "edad": 30, "genero": "F" },
+    { "dni": "2701282930", "nombres": "Diego Castillo", "email": "diego.castillo@example.com", "telefono": "+59399777777", "edad": 28, "genero": "M" },
+    { "dni": "3101323334", "nombres": "Verónica Ruiz", "email": "veronica.ruiz@example.com", "telefono": "+59399888888", "edad": 33, "genero": "F" },
+    { "dni": "3501363738", "nombres": "Gustavo Herrera", "email": "gustavo.herrera@example.com", "telefono": "+59399999999", "edad": 45, "genero": "M" },
+    { "dni": "3901404142", "nombres": "Elena Vega", "email": "elena.vega@example.com", "telefono": "+59399000000", "edad": 26, "genero": "F" }
+  ],
+  "productos": [
+    { "codigo": "P001", "nombre": "Laptop Pro 14", "categoria": "Laptops", "precio": 1299.99, "stock": 15 },
+    { "codigo": "P002", "nombre": "Smartphone X2", "categoria": "Smartphones", "precio": 799.0, "stock": 40 },
+    { "codigo": "P003", "nombre": "Monitor 27 4K", "categoria": "Monitores", "precio": 349.5, "stock": 25 },
+    { "codigo": "P004", "nombre": "Teclado Mecánico", "categoria": "Accesorios", "precio": 89.9, "stock": 60 },
+    { "codigo": "P005", "nombre": "Mouse Inalámbrico", "categoria": "Accesorios", "precio": 39.99, "stock": 100 },
+    { "codigo": "P006", "nombre": "Auriculares ANC", "categoria": "Audio", "precio": 149.0, "stock": 35 },
+    { "codigo": "P007", "nombre": "SSD NVMe 1TB", "categoria": "Almacenamiento", "precio": 109.0, "stock": 50 },
+    { "codigo": "P008", "nombre": "Router WiFi 6", "categoria": "Redes", "precio": 129.0, "stock": 30 },
+    { "codigo": "P009", "nombre": "Webcam HD", "categoria": "Accesorios", "precio": 59.0, "stock": 70 },
+    { "codigo": "P010", "nombre": "Impresora Láser", "categoria": "Impresoras", "precio": 219.0, "stock": 20 }
+  ],
+  "pedidos": [
+    { "codigo": "O001", "clienteId": "0102030405", "fecha": "2026-02-01", "subtotal": 1299.99, "iva": 233.9982, "total": 1533.9882, "estado": "PAGADO" },
+    { "codigo": "O002", "clienteId": "0607080910", "fecha": "2026-02-01", "subtotal": 799.0, "iva": 143.82, "total": 942.82, "estado": "PENDIENTE" },
+    { "codigo": "O003", "clienteId": "1101121314", "fecha": "2026-02-02", "subtotal": 349.5, "iva": 62.91, "total": 412.41, "estado": "PAGADO" },
+    { "codigo": "O004", "clienteId": "1501161718", "fecha": "2026-02-02", "subtotal": 89.9, "iva": 16.182, "total": 106.082, "estado": "PAGADO" },
+    { "codigo": "O005", "clienteId": "1901202122", "fecha": "2026-02-03", "subtotal": 39.99, "iva": 7.1982, "total": 47.1882, "estado": "PAGADO" },
+    { "codigo": "O006", "clienteId": "2301242526", "fecha": "2026-02-03", "subtotal": 149.0, "iva": 26.82, "total": 175.82, "estado": "PENDIENTE" },
+    { "codigo": "O007", "clienteId": "2701282930", "fecha": "2026-02-03", "subtotal": 109.0, "iva": 19.62, "total": 128.62, "estado": "PAGADO" },
+    { "codigo": "O008", "clienteId": "3101323334", "fecha": "2026-02-04", "subtotal": 129.0, "iva": 23.22, "total": 152.22, "estado": "PAGADO" },
+    { "codigo": "O009", "clienteId": "3501363738", "fecha": "2026-02-04", "subtotal": 59.0, "iva": 10.62, "total": 69.62, "estado": "PAGADO" },
+    { "codigo": "O010", "clienteId": "3901404142", "fecha": "2026-02-05", "subtotal": 219.0, "iva": 39.42, "total": 258.42, "estado": "PENDIENTE" }
+  ],
+  "detalle_pedido": [
+    { "codigo": "D001", "productoId": "P001", "cantidad": 1, "detalle": "Laptop Pro 14", "precioUnit": 1299.99 },
+    { "codigo": "D002", "productoId": "P002", "cantidad": 1, "detalle": "Smartphone X2", "precioUnit": 799.0 },
+    { "codigo": "D003", "productoId": "P003", "cantidad": 1, "detalle": "Monitor 27 4K", "precioUnit": 349.5 },
+    { "codigo": "D004", "productoId": "P004", "cantidad": 1, "detalle": "Teclado Mecánico", "precioUnit": 89.9 },
+    { "codigo": "D005", "productoId": "P005", "cantidad": 1, "detalle": "Mouse Inalámbrico", "precioUnit": 39.99 },
+    { "codigo": "D006", "productoId": "P006", "cantidad": 1, "detalle": "Auriculares ANC", "precioUnit": 149.0 },
+    { "codigo": "D007", "productoId": "P007", "cantidad": 1, "detalle": "SSD NVMe 1TB", "precioUnit": 109.0 },
+    { "codigo": "D008", "productoId": "P008", "cantidad": 1, "detalle": "Router WiFi 6", "precioUnit": 129.0 },
+    { "codigo": "D009", "productoId": "P009", "cantidad": 1, "detalle": "Webcam HD", "precioUnit": 59.0 },
+    { "codigo": "D010", "productoId": "P010", "cantidad": 1, "detalle": "Impresora Láser", "precioUnit": 219.0 }
+  ]
+}

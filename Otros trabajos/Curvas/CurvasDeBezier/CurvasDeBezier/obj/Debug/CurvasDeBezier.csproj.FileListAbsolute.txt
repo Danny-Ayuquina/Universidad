@@ -1,0 +1,12 @@
+D:\Universidad\5to Semestre\Computación Gráfica\P2\Velocimetro\CurvasDeBezier\CurvasDeBezier\bin\Debug\CurvasDeBezier.exe.config
+D:\Universidad\5to Semestre\Computación Gráfica\P2\Velocimetro\CurvasDeBezier\CurvasDeBezier\bin\Debug\CurvasDeBezier.exe
+D:\Universidad\5to Semestre\Computación Gráfica\P2\Velocimetro\CurvasDeBezier\CurvasDeBezier\bin\Debug\CurvasDeBezier.pdb
+D:\Universidad\5to Semestre\Computación Gráfica\P2\Velocimetro\CurvasDeBezier\CurvasDeBezier\obj\Debug\CurvasDeBezier.csproj.AssemblyReference.cache
+D:\Universidad\5to Semestre\Computación Gráfica\P2\Velocimetro\CurvasDeBezier\CurvasDeBezier\obj\Debug\CurvasDeBezier.Properties.Resources.resources
+D:\Universidad\5to Semestre\Computación Gráfica\P2\Velocimetro\CurvasDeBezier\CurvasDeBezier\obj\Debug\CurvasDeBezier.csproj.GenerateResource.cache
+D:\Universidad\5to Semestre\Computación Gráfica\P2\Velocimetro\CurvasDeBezier\CurvasDeBezier\obj\Debug\CurvasDeBezier.csproj.CoreCompileInputs.cache
+D:\Universidad\5to Semestre\Computación Gráfica\P2\Velocimetro\CurvasDeBezier\CurvasDeBezier\obj\Debug\CurvasDeBezier.exe
+D:\Universidad\5to Semestre\Computación Gráfica\P2\Velocimetro\CurvasDeBezier\CurvasDeBezier\obj\Debug\CurvasDeBezier.pdb
+D:\Universidad\5to Semestre\Computación Gráfica\P2\Velocimetro\CurvasDeBezier\CurvasDeBezier\obj\Debug\CurvasDeBezier.exe.config
+D:\Universidad\5to Semestre\Computación Gráfica\P2\Velocimetro\CurvasDeBezier\CurvasDeBezier\obj\Debug\CurvasDeBezier.FormBezier.resources
+D:\Universidad\5to Semestre\Computación Gráfica\P2\Velocimetro\CurvasDeBezier\CurvasDeBezier\obj\Debug\CurvasDeBezier.FormMenuPrincipal.resources
